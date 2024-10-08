@@ -1,4 +1,5 @@
 # Vibrotechnology and Vibromachines
 
-Lecture materials. 
-Python codes.
+Python codes for mass-spring-damper systems:
+* Free vibration
+* Forced vibration
