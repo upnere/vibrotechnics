@@ -1,4 +1,8 @@
 #Beat phenomenon. Case 1
+#
+# To run the code in the terminal, use the command:
+#       python exercise2_1-skel.py
+#
 
 import matplotlib.pyplot as plt
 import numpy as np
