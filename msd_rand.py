@@ -75,6 +75,7 @@ def main():
     for i, system in enumerate(systems):
         x, v = mass_spring_damper(*system)
         plt.plot(t, x, label=f'System {i+1}: m={system[0]:.2f}, c={system[1]:.2f}, k={system[2]:.2f}, F={system[3]:.2f}')
+        #__ your code for v(t) plots __
 
     # Print the total execution time
     print(f"Execution time: {time.time() - start_time:.4f} seconds.")
