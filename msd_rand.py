@@ -77,7 +77,7 @@ def main():
         plt.plot(t, x, label=f'System {i+1}: m={system[0]:.2f}, c={system[1]:.2f}, k={system[2]:.2f}, F={system[3]:.2f}')
 
     # Print the total execution time
-    print(f"Random system parameters generated in {time.time() - start_time:.4f} seconds.")
+    print(f"Execution time: {time.time() - start_time:.4f} seconds.")
 
     # Plot settings
     plt.xlabel('Time (s)')
